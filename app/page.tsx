@@ -281,6 +281,9 @@ export default function Home() {
               <a href='https://twitter.com/TNaizam'>
                 <AiFillTwitterCircle />
               </a>
+              <a href='https://discord.com/users/688328042212360208'>
+                <BsDiscord />
+              </a>
               <a href='https://instagram.com/nichunaizam100'>
                 <AiFillInstagram />
               </a>
