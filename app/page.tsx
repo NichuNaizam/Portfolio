@@ -51,7 +51,7 @@ export default function Home() {
               Full Stack Web Dev and C/C++ programmer
             </h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-100'>
-              Let me introduce myself – I'm Naizam Ali Najad, a young and
+              Let me introduce myself – I&apos;m Naizam Ali Najad, a young and
               passionate developer with a knack for technology. At the age of
               15, I have already embarked on an exciting journey in programming,
               driven by my curiosity and determination to make a difference in
@@ -98,7 +98,7 @@ export default function Home() {
               the projects I have developed at such a young age. If you are
               seeking a motivated and talented developer who is eager to make a
               mark in the industry, I would be thrilled to connect with you and
-              discuss potential collaborations. Together, let's embark on a
+              discuss potential collaborations. Together, let&apos;s embark on a
               journey of innovation and create extraordinary digital
               experiences.
             </p>
@@ -143,7 +143,7 @@ export default function Home() {
               app, or an immersive game, I have the expertise and skills to
               bring your ideas to life. My dedication to crafting high-quality
               solutions ensures that your specific requirements are met, and
-              your users have an outstanding experience. Let's collaborate and
+              your users have an outstanding experience. Let&apos;s collaborate and
               create something remarkable together!
             </p>
           </div>
@@ -154,11 +154,11 @@ export default function Home() {
           <div className='text-center py-8 p-10 shadow-xl'>
             <h3 className='text-3xl py-1 text-center'>Projects</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-100'>
-              Below you'll find a selection of my recent projects that showcase
+              Below you&apos;ll find a selection of my recent projects that showcase
               my skills and expertise. Each project represents a unique
               challenge and demonstrates my ability to create efficient,
               user-friendly, and visually appealing solutions. Take a look and
-              explore the diverse range of projects I've worked on. You can
+              explore the diverse range of projects I&apos;ve worked on. You can
               check out my GitHub profile to see all of my projects.
             </p>
 
