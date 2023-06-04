@@ -11,13 +11,13 @@ import {
 import ProjectCard from '@/components/ProjectCard';
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     const darkMode = localStorage.getItem('darkMode');
     
-    if (darkMode === 'true') {
-      setDarkMode(true);
+    if (darkMode == 'false') {
+      setDarkMode(false);
     }
   }, [setDarkMode]);
 
