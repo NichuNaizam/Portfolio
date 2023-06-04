@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BsFillMoonStarsFill, BsDiscord } from 'react-icons/bs';
 import {
   AiFillTwitterCircle,
@@ -11,7 +11,15 @@ import {
 import ProjectCard from '@/components/ProjectCard';
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(localStorage.getItem('darkMode') === 'true' ? true : false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const darkMode = localStorage.getItem('darkMode');
+    
+    if (darkMode === 'true') {
+      setDarkMode(true);
+    }
+  }, [setDarkMode]);
 
   function toggleDarkTheme() {
     setDarkMode(!darkMode);
