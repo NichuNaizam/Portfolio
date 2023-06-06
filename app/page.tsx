@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect(() => {
     const darkMode = localStorage.getItem('darkMode');
-    
+
     if (darkMode == 'false') {
       setDarkMode(false);
     }
@@ -28,7 +28,9 @@ export default function Home() {
 
   return (
     <div className={darkMode ? 'dark' : ''}>
-      <main className={`bg-white dark:bg-gray-900  px-10 dark:text-gray-100 transition-all duration-300`}>
+      <main
+        className={`bg-white dark:bg-gray-900  px-10 dark:text-gray-100 transition-all duration-300`}
+      >
         <section className='transition-all duration-300'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl'>Naizam Ali Najad</h1>
@@ -40,10 +42,10 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href='https://github.com/NichuNaizam'
+                  href='https://1drv.ms/p/s!Ahl7S2dluzSnk4Agd4OXAfQt-RnKrw?e=vWRoNk'
                   className='bg-gradient-to-r from-cyan-500 to-teal-400 text-white px-4 py-2 rounded-md ml-8'
                 >
-                  Github
+                  English Presentation
                 </a>
               </li>
             </ul>
@@ -151,8 +153,8 @@ export default function Home() {
               app, or an immersive game, I have the expertise and skills to
               bring your ideas to life. My dedication to crafting high-quality
               solutions ensures that your specific requirements are met, and
-              your users have an outstanding experience. Let&apos;s collaborate and
-              create something remarkable together!
+              your users have an outstanding experience. Let&apos;s collaborate
+              and create something remarkable together!
             </p>
           </div>
         </section>
@@ -162,8 +164,8 @@ export default function Home() {
           <div className='text-center py-8 p-10 shadow-xl'>
             <h3 className='text-3xl py-1 text-center'>Projects</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-100'>
-              Below you&apos;ll find a selection of my recent projects that showcase
-              my skills and expertise. Each project represents a unique
+              Below you&apos;ll find a selection of my recent projects that
+              showcase my skills and expertise. Each project represents a unique
               challenge and demonstrates my ability to create efficient,
               user-friendly, and visually appealing solutions. Take a look and
               explore the diverse range of projects I&apos;ve worked on. You can
